@@ -6,3 +6,4 @@ func _ready():
 func _on_area_entered(body):
 	if "PLAYER" in body.name:
 		body.take_damage(40)  # same as ATTACK_DAMAGE
+
